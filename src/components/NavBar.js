@@ -11,7 +11,7 @@ const NavBar = () => {
 
                 <nav className="btn-group">
                     <button type="button" class="btn btn-light"><Link to="/" className="btn btn-success justify-content-between"> Accueil </Link></button>
-                    <button type="button" class="btn btn-light"><Link to="/search" className="btn btn-success">Rechercher</Link></button>
+                    <button type="button" class="btn btn-light"><Link to="/search" className="btn btn-success">Listes</Link></button>
                 </nav>
             </div>
         </header>

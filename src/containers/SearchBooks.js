@@ -90,7 +90,7 @@ const SearchBooks = () => {
         <main role="main">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container text-center">
-                    <h1 className="display-4">BOOKS</h1>
+                    <h1 className="display-4">Listes sur Google Livres</h1>
                     <p>Indiquez le sujet du livre à rechercher sur Google API</p>
 
                     <form 

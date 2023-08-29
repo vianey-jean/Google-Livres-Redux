@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <NavBar />
         <Routes>
-          <Route exact path="/" element={ <AddBooks />} />
-          <Route path="/search" element={< SearchBooks /> } />
+          <Route exact path="/" element={ < SearchBooks/>} />
+          <Route path="/search" element={< AddBooks /> } />
         </Routes>
       <Footer />
     </BrowserRouter>
