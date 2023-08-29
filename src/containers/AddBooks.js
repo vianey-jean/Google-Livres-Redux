@@ -35,7 +35,7 @@ const AddBooks = ({ libraryData, addBook, deleteBook, deletAll }) => {
                         <span 
                            className="btn btn-danger"
                            onClick={() => deleteBook(data.id)}
-                        >x</span>
+                        >X</span>
                     </li>
                 )
             })

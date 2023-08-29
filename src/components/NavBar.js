@@ -10,8 +10,8 @@ const NavBar = () => {
                 </h4>
 
                 <nav className="btn-group">
-                    <Link to="/" className="btn btn-secondary">Accueil</Link>
-                    <Link to="/search" className="btn btn-secondary">Rechercher</Link>
+                    <button type="button" class="btn btn-light"><Link to="/" className="btn btn-success justify-content-between"> Accueil </Link></button>
+                    <button type="button" class="btn btn-light"><Link to="/search" className="btn btn-success">Rechercher</Link></button>
                 </nav>
             </div>
         </header>
