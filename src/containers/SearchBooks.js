@@ -68,14 +68,14 @@ const SearchBooks = () => {
                             <h5 className="card-title">Auteurs: {data.volumeInfo.authors}</h5>
                             <p className="card-text">Description: {data.volumeInfo.description}</p>
                             <a 
-                              className="btn btn-outline-secondary" 
+                              className="btn btn-outline-danger" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               href={data.volumeInfo.previewLink}
                               >
                             Plus d'infos</a>
                             <button 
-                               className="btn btn-outline-secondary ml-3"
+                               className="btn btn-outline-success ml-3"
                                onClick={() => handleSave(data.volumeInfo.title, data.volumeInfo.authors)}
                             >Enregistrer</button>
                         </div>
@@ -110,7 +110,7 @@ const SearchBooks = () => {
                         
                         <div className="form-group">
                             <button 
-                               className="btn btn-outline-secondary ml-3"
+                               className="btn btn-outline-success ml-3"
                             >Rechercher
                             </button>
                         </div>

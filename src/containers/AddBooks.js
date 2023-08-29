@@ -81,7 +81,7 @@ const AddBooks = ({ libraryData, addBook, deleteBook, deletAll }) => {
                         </div>
                         
                         <div className="form-group">
-                            <button className="btn btn-outline-secondary ml-3">Ajouter un livre</button>
+                            <button className="btn btn-outline-success ml-3">Ajouter un livre</button>
                         </div>
                         
                     </form>
