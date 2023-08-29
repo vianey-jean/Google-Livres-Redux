@@ -24,7 +24,7 @@ const SearchBooks = () => {
     const handleSave = (title, author) => {
         const bookTosave = { title, author}
         dispatch(addBook(bookTosave))
-        toast.info('Livre enregistré', { position: toast.POSITION.BOTTOM_RIGHT })
+        toast.success('Livre Enregistré', { position: toast.POSITION.BOTTOM_CENTER})
     }
 
     const displayFetchedBooks = state.isLoading ? (
