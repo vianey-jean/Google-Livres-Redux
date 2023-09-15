@@ -41,7 +41,7 @@ const SearchBooks = () => {
     (
         state.fetchedBooks.map( data => {
             return (
-                <div className="card mb-2" key={data.id}>
+                <div className="card mb-2 " key={data.id}>
 
                     <div className="card-header">
                         <h5 className="mb-0">
@@ -88,7 +88,7 @@ const SearchBooks = () => {
 
     return (
         <main role="main">
-            <div className="jumbotron jumbotron-fluid">
+            <div className="jumbotron jumbotron-fluid ">
                 <div className="container text-center">
                     <h1 className="display-4">Listes sur Google Livres</h1>
                     <p>Indiquez le sujet du livre à rechercher sur Google API</p>
@@ -119,7 +119,7 @@ const SearchBooks = () => {
                 </div>
             </div>
 
-            <div className="container" style={{minHeight: '200px'}}>
+            <div className="container " style={{minHeight: '200px'}}>
                 <div id="accordion">
                     { displayFetchedBooks }
                 </div>

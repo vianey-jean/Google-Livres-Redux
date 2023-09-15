@@ -10,8 +10,8 @@ const NavBar = () => {
                 </h4>
 
                 <nav className="btn-group">
-                    <Link to="/" className="btn btn-success ml-4"> Accueil </Link>
-                    <Link to="/search" className="btn btn-success ml-4">Listes</Link>
+                    <Link to="/" className="btn btn-success btn-lg ml-4"> Accueil </Link>
+                    <Link to="/search" className="btn btn-success btn-lg ml-4">Listes</Link>
                 </nav>
             </div>
         </header>
